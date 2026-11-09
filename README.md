@@ -9,7 +9,8 @@ for separately maintained themes that users can choose to add to a project.
 `catalog.json` is the machine-readable index used by Chaptr to list available
 themes. Each entry describes a theme and identifies its latest release archive.
 Keep the version, archive URL and SHA-256 checksum in sync whenever a theme is
-released or updated. The catalog is empty until the first theme is ready.
+released or updated. Add a catalog entry when its versioned release archive is
+published; source files alone are not installable from the catalog.
 
 ## Theme Files
 
@@ -38,13 +39,13 @@ Each object in the `themes` array uses this shape:
 
 ```json
 {
-  "id": "roleplaying",
-  "name": "Roleplaying",
+  "id": "dungeons",
+  "name": "Dungeons",
   "description": "A theme for fantasy roleplaying documents.",
   "version": "1.0.0",
   "license": "MIT",
-  "min_chaptr_version": "0.1.1",
-  "archive_url": "https://github.com/clkjunk/chaptr-themes/releases/download/roleplaying-1.0.0/roleplaying-1.0.0.zip",
+  "min_chaptr_version": "0.1.2",
+  "archive_url": "https://github.com/clkjunk/chaptr-themes/releases/download/dungeons-1.0.0/dungeons-1.0.0.zip",
   "sha256": "replace-with-the-archive-sha256"
 }
 ```

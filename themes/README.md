@@ -5,8 +5,8 @@ letters, digits or hyphens:
 
 ```text
 themes/
-  roleplaying/
-    roleplaying.css
+  dungeons/
+    dungeons.css
     README.md
     LICENSE
     preview.png

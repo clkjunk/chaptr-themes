@@ -1,0 +1,26 @@
+.monster-card {
+  --monster-accent: #74412f;
+  --monster-rule: #b8a47a;
+  max-width: 118mm;
+  margin: 24px 0;
+  padding: 16px;
+  border: 1px solid var(--monster-rule);
+  border-top: 4px solid var(--monster-accent);
+  border-radius: 3px;
+  background: #fffdf7;
+  color: #29261e;
+  font-size: 10pt;
+  line-height: 1.45;
+}
+.monster-card h2 { margin: 0; padding: 0; border: 0; color: var(--monster-accent); font-size: 17pt; line-height: 1.2; }
+.monster-card > h2 + p { margin: 4px 0 16px; color: #5e584b; font-size: 9pt; }
+.monster-card p { margin: 8px 0; }
+.monster-card h3 { margin: 16px 0 8px; padding-bottom: 4px; border-bottom: 1px solid var(--monster-rule); color: var(--monster-accent); font-size: 11pt; }
+.monster-card table { margin: 14px 0; table-layout: fixed; font-size: 9pt; }
+.monster-card th, .monster-card td { padding: 6px 2px; border: 0; text-align: center; overflow-wrap: anywhere; }
+.monster-card th { background: #eee8d8; color: #413b2e; font-size: 8pt; }
+.monster-card td { border-bottom: 1px solid var(--monster-rule); }
+@media print {
+  .monster-card { break-inside: avoid; }
+  .monster-card p { break-inside: avoid; }
+}
