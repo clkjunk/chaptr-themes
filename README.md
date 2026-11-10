@@ -1,8 +1,12 @@
 # Chaptr Themes
 
-Optional CSS themes for Chaptr document projects. Chaptr's built-in `modern`
-and `vintage` themes remain part of the Chaptr application; this repository is
-for separately maintained themes that users can choose to add to a project.
+Optional CSS themes for Chaptr document projects. Chaptr supplies a neutral
+`base` stylesheet for typography, headings, tables, images, columns, alignment
+and print layout. This repository provides distinct visual styles and
+theme-specific components on top of that foundation.
+
+Simple font, size or spacing changes can live in a project's `styles.css`
+with `stylesheet: styles.css`; they do not require a separate theme.
 
 ## Catalog
 
